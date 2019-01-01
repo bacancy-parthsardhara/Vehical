@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color:lightgreen;">
+<div class="container">
+<h1>Vehical</h1>
+<h2>Car</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <form class="form-horizontal">
+            <div class="form-group">
+                <label for="type">Type:</label>
+               <select class="form-control " id="type" name="type">
+                    <option value="Hatchback">Hatchback</option>
+                    <option value="Sedan">Sedan</option>
+                    <option value="Minivan">Minivan</option>
+                    <option value="Sport_utility_vehical">Sport Utility vehical </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="brand">Brand:</label>
+               <select class="form-control" id="brand" name="brand">
+                    <option value="Jeep">Jeep</option>
+                    <option value="Datsun">Datsun</option>
+                    <option value="Spyker">Spyker</option>
+                    <option value="Ladonda">Ladonda</option>
+                    <option value="Mini">Mini</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="model">Model:</label>
+                <input type="text" class="form-control" id="model" placeholder="Enter model name of the car" name="model">
+            </div>
+            <div class="form-group">
+                <label for="enginetype">Engine Type:</label>
+                <input type="text" class="form-control" id="enginetype" placeholder="Enter engine type name of the car" name="enginetype">
+            </div>
+            <div class="form-group">
+                <label for="yearofpurchase">Year of purchase:</label>
+                <input type="text" class="form-control" id="yearofpurchase" placeholder="Enter year of purchase of the car" name="yearofpurchase">
+            </div>
+                <button type="button" onclick="submitcar()"  class="btn btn-default">Submit</button>
+            </form>
+            <p id="p1"> </p><p id="p2"> </p><p id="p3"> </p><p id="p4"> </p><p id="p5"> </p>
+            </div>
+        </div>
+    </div>
+</div><br />
+<div class="container">
+    <h2>Bike</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <form class="form-horizontal" action="">
+            <div class="form-group">
+                <label for="brand">Brand:</label>
+                <input type="text" class="form-control" id="text" placeholder="Enter Brand name of the bike" name="brand">
+            </div>
+            <div class="form-group">
+                <label for="model">Model:</label>
+                <input type="text" class="form-control" id="model" placeholder="Enter model name of the bike" name="model">
+            </div>
+            <div class="form-group">
+                <label for="enginetype">Engine Type:</label>
+                <input type="text" class="form-control" id="enginetype" placeholder="Enter engine type name of the bike" name="enginetype">
+            </div>
+            <div class="form-group">
+                <label for="yearofpurchase">Year of purchase:</label>
+                <input type="text" class="form-control" id="yearofpurchase" placeholder="Enter year of purchase of the bike" name="yearofpurchase">
+            </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div><br />
+</div><br />
+<div class="container">
+    <h2>Bicycle</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <form class="form-horizontal" action="">
+            <div class="form-group">
+                <label for="brand">Brand:</label>
+                <input type="text" class="form-control" id="text" placeholder="Enter Brand name of the bicycle" name="brand">
+            </div>
+            <div class="form-group">
+                <label for="model">Model:</label>
+                <input type="text" class="form-control" id="model" placeholder="Enter model name of the bicycle" name="model">
+            </div>
+            <div class="form-group">
+                <label for="yearofpurchase">Year of purchase:</label>
+                <input type="text" class="form-control" id="yearofpurchase" placeholder="Enter year of purchase of the bicycle" name="yearofpurchase">
+            </div>
+                <button type="submit" onclick ="()"; class="btn btn-default">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div><br /><br /><br />
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
